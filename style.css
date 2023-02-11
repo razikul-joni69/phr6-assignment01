@@ -35,7 +35,7 @@
 
 /* Failure Section Start  */
 #failure {
-    margin: 200px 15%;
+    margin: 150px 15%;
     letter-spacing: 2px;
     display: flex;
 }
@@ -61,6 +61,41 @@ p img {
 }
 /* Failure Section End */
 
+/* Mission section Start  */
+#mission {
+    margin: 0 50px;
+}
+#mission h2 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.missions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.missions > div {
+    color: rgb(243, 235, 235);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.missions > div > h3 {
+    color: black;
+    padding-bottom: 15px;
+}
+
+.mission-01 {
+    background-color: #faa116;
+}
+.mission-02 {
+    background-color: #ff194f;
+}
+.mission-03 {
+    background-color: #6aa9ff;
+}
+/* Mission Section End  */
 /* Plans Section Start  */
 #plans {
     width: 90%;
